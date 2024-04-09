@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+
+.material-symbols-outlined {
+    color: rgb(85, 85, 85);
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+main {
+    width: 85%;
+    margin: auto;
+}
+
+
+/* section 1 styles */
+
+
+#finder {
+
+    background-color: #f2fffe;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+#finder>div {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+}
+
+#finder>div>div {
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#finder>div>div:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+
+
+#finder>div>div>img {
+    max-width: 100%;
+    border-bottom: 0.4px solid rgb(213, 213, 213);
+}
+
+.finder_discount {
+    font-size: 12px;
+    color: red;
+}
+
+
+#finder>h3 {
+    /* text-align: center; */
+    font-family: Inter, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+}
+
+main {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 746px) and (max-width: 1324px) {
+    #finder>div {
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 745px) {
+    #finder>div {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    #finder>div {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+/* section 2 */
+
+#lab_test {
+    margin-top: 80px;
+    text-align: left;
+}
+
+#lab_test>h2 {
+    color: rgb(47, 47, 47);
+    font-weight: 600;
+}
+
+#lab_test>p {
+    display: flex;
+    align-items: center;
+}
+
+#lab_test>p>img {
+    max-width: 100px;
+    margin-left: 10px;
+}
+
+#lab_test>div {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+#lab_test>div:hover {
+    cursor: pointer;
+}
+
+#lab_test>div>img {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 200px) and (max-width: 950px) {
+    #lab_test>div {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #lab_test>div>img {
+        max-width: 200px;
+    }
+}
+
+/* section 3 styles */
+
+.product_slider {
+    margin-top: 80px;
+    text-align: left;
+}
+
+
+.product_slider>div {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+}
+
+.product_slider>div>div>p {
+    margin: 15px 0px;
+}
+
+.product_slider>div>div>img {
+    max-width: 100%;
+    border: 1px solid black;
+}
