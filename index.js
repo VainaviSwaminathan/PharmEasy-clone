@@ -1,4 +1,6 @@
-// Function to initialize slider functionality for a given section
+
+// product slider
+
 function initializeSlider(section) {
     let sliderContainer = section.querySelector('.product_slider');
     let leftButton = section.querySelector('.left_btn button');
@@ -14,7 +16,6 @@ function initializeSlider(section) {
     });
 }
 
-// Initialize sliders for both sections
 document.addEventListener('DOMContentLoaded', function () {
     let section1 = document.getElementById('new_launches');
     let section2 = document.getElementById("Deals_of_the_day");
@@ -22,3 +23,24 @@ document.addEventListener('DOMContentLoaded', function () {
     initializeSlider(section2);
 });
 
+// login / signup
+
+let login = document.getElementById("login")
+login.addEventListener("click", function () {
+    showModal()
+
+})
+
+function showModal() {
+    overlay = document.getElementById("overlay")
+    login_div = document.getElementById("login_form_wrapper")
+    login_div.style.top = "50%";
+    overlay.style.display = "block"
+
+    close_btn = document.getElementById("login_form_close")
+    close_btn.addEventListener("click", function () {
+        overlay.style.display = "none"
+        login_div.style.top = "-50%";
+
+    })
+}

@@ -54,13 +54,13 @@
                 <span id="cart" class="material-symbols-outlined">
                     shopping_cart
                 </span>
-                <p><span class="material-symbols-outlined">
+                <p id="login"><span class="material-symbols-outlined">
                         person
                     </span>log in</p>
                 <p><span class="material-symbols-outlined">
                         sell
                     </span>offers</p>
-                <p><span class="material-symbols-outlined">
+                <p id="cart_link"><span class="material-symbols-outlined">
                         shopping_cart
                     </span>cart</p>
             </div>
@@ -479,6 +479,25 @@
         © 2024 PharmEasy. All Rights Reserved
     </div>
 
+    <!-- modal  -->
+    <div id="overlay"></div>
+    <div id="login_form_wrapper">
+        <span id="login_form_close">&times;</span>
+        <form id="login_form">
+            <div>
+                <label for="username">Username</label>
+                <input id="username">
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input id="password" type="password">
+            </div>
+
+            <input type="submit" value="login" id="login_btn">
+        </form>
+        <p>Dont have an account? <a href="sign-in.html">Sign-in</a></p>
+    </div>
 
 
 </body>
