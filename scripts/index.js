@@ -44,3 +44,50 @@ function showModal() {
 
     })
 }
+
+let users_data;
+let welcome_message = document.querySelector("#finder>h3")
+console.log(welcome_message)
+localStorage.setItem("isAuth", "Not Authenticated")
+
+function loadUserData() {
+
+    users_data = JSON.parse(localStorage.getItem("UsersData"))
+    if (!users_data) {
+        users_data = [];
+    }
+}
+
+let login_form = document.getElementById("login_form")
+login_form.addEventListener("submit", function (event) {
+    handleSubmit_log_in(event)
+})
+
+function handleSubmit_log_in(event) {
+    event.preventDefault()
+    let data = event.target
+
+    let username = data[0].value
+    let password = data[1].value
+
+    let login_arr = users_data.filter(function (ele, i) {
+        return (ele.username == username) && (ele.password == password)
+    })
+
+    if (login_arr.length > 0) {
+        alert("Logged in successfully!")
+        localStorage.setItem("isAuth", "Authenticated")
+        welcome_message.innerHTML = `Welcome ${username}`
+        overlay.style.display = "none"
+        login_div.style.top = "-50%";
+
+
+    }
+    else {
+        alert("Incorrect credentials")
+    }
+
+}
+
+loadUserData()
+

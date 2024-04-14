@@ -140,6 +140,14 @@ main {
     }
 }
 
+@media screen and (min-width: 200px) and (max-width: 740px) {
+    #lab_test>div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+}
+
 /* section 3 styles */
 
 .slider {

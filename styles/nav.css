@@ -74,6 +74,12 @@ nav p {
     letter-spacing: 1px;
 }
 
+#cart_link a {
+    text-decoration: none;
+    align-self: center;
+    color: rgb(74, 74, 74);
+}
+
 #delivery {
     color: gray;
 }

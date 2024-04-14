@@ -12,8 +12,8 @@
 
     <!-- css files -->
 
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/main.css">
 
 
     <link rel="icon" href="https://assets.pharmeasy.in/apothecary/images/favicon.png">
@@ -62,16 +62,16 @@
                     </span>offers</p>
                 <p id="cart_link"><span class="material-symbols-outlined">
                         shopping_cart
-                    </span>cart</p>
+                    </span><a href="cart.html">cart</a></p>
             </div>
         </div>
         <div id="divider2"></div>
         <div id="nav_bottom_half">
-            <a href="dummylink">Medicine</a>
-            <a href="dummylink">Lab tests</a>
-            <a href="dummylink">Health Blogs</a>
-            <a href="dummylink">Health Care</a>
-            <a href="index.html">offers</a>
+            <a href="ValueStore.html">Value Store</a>
+            <a href="ValueStore.html">Lab tests</a>
+            <a href="ValueStore.html">Health Blogs</a>
+            <a href="ValueStore.html">Health Care</a>
+            <a href="ValueStore.html">offers</a>
         </div>
     </nav>
 
@@ -80,7 +80,7 @@
         <!-- section 1 -->
 
         <section id="finder">
-            <h3>What are you looking for?</h3>
+            <h3 id="welcome_message">What are you looking for?</h3>
             <div>
                 <div id="finder_card">
                     <img src="https://assets.pharmeasy.in/apothecary/images/medicine_ff.webp?dim=256x0">
@@ -486,12 +486,12 @@
         <form id="login_form">
             <div>
                 <label for="username">Username</label>
-                <input id="username">
+                <input id="username" required>
             </div>
 
             <div>
                 <label for="password">Password</label>
-                <input id="password" type="password">
+                <input id="password" type="password" required>
             </div>
 
             <input type="submit" value="login" id="login_btn">
@@ -503,6 +503,6 @@
 </body>
 
 </html>
-<script src="index.js">
+<script src="scripts/index.js">
 
 </script>
