@@ -45,5 +45,9 @@ Products added to the cart page can also be removed by clicking on the 'Remove f
 ![Screenshot 2024-04-14 at 11 23 24 PM](https://github.com/VainaviSwaminathan/PharmEasy-clone/assets/155678331/ad32ee0c-e855-4301-a46b-23122fca6d4e)
 
 
+# Languages and frameworks used:
 
+1) HTML
+2) CSS
+3) JavaScript - DOM manipulation
 
