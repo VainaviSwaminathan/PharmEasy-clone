@@ -6,7 +6,6 @@ body {
 }
 
 #sign_in_container {
-    /* border: 1px solid black; */
     width: 350px;
     position: fixed;
     top: 50%;
@@ -35,7 +34,12 @@ body {
     color: white;
 }
 
+#sign_in_container #register_btn:hover {
+    cursor: pointer;
+    background-color: #10655f;
+}
+
 #sign_in_container h2 {
     text-align: center;
-    color: #17847c;
+    /* background-color: #17847c; */
 }
