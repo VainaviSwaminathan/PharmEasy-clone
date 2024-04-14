@@ -27,3 +27,10 @@ This feature allows users to search for a product based on its category.
 
 ![Screenshot 2024-04-14 at 11 18 55 PM](https://github.com/VainaviSwaminathan/PharmEasy-clone/assets/155678331/02d903fe-971f-4b6d-8124-34e336d64dee)
 
+![Screenshot 2024-04-14 at 11 19 38 PM](https://github.com/VainaviSwaminathan/PharmEasy-clone/assets/155678331/8174a193-14ce-41ab-875d-d03e6ea0f5d7)
+
+![Screenshot 2024-04-14 at 11 19 59 PM](https://github.com/VainaviSwaminathan/PharmEasy-clone/assets/155678331/962c76ac-eda1-49cf-aef9-c552d3f55011)
+
+
+
+
