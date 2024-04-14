@@ -12,4 +12,6 @@ PharmEasy Clone: A simple web application clone inspired by PharmEasy, an online
 
 # Log-in and Sign-up
 
+![Screenshot 2024-04-14 at 11 11 41 PM](https://github.com/VainaviSwaminathan/PharmEasy-clone/assets/155678331/2bec02ed-5e38-401b-a6b1-7ee86edcfc89)
 
+![Screenshot 2024-04-14 at 11 12 50 PM](https://github.com/VainaviSwaminathan/PharmEasy-clone/assets/155678331/c5c13867-00f6-4f57-affe-de579af0912b)
