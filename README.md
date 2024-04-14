@@ -32,5 +32,18 @@ This feature allows users to search for a product based on its category.
 ![Screenshot 2024-04-14 at 11 19 59 PM](https://github.com/VainaviSwaminathan/PharmEasy-clone/assets/155678331/962c76ac-eda1-49cf-aef9-c552d3f55011)
 
 
+# Add to cart feature
+This feature allows users to add products to their cart , which will be displayed in the cart page.
+
+![Screenshot 2024-04-14 at 11 22 05 PM](https://github.com/VainaviSwaminathan/PharmEasy-clone/assets/155678331/bc085af6-c3aa-41d6-a119-7d66a5d6f8cb)
+
+![Screenshot 2024-04-14 at 11 22 23 PM](https://github.com/VainaviSwaminathan/PharmEasy-clone/assets/155678331/4c3c0393-7062-424a-a20b-2cc4037d46e5)
+
+# Remove from cart feature
+Products added to the cart page can also be removed by clicking on the 'Remove from cart' button.
+
+![Screenshot 2024-04-14 at 11 23 24 PM](https://github.com/VainaviSwaminathan/PharmEasy-clone/assets/155678331/ad32ee0c-e855-4301-a46b-23122fca6d4e)
+
+
 
 
