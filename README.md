@@ -20,3 +20,10 @@ This clone website has a log-in and sign-up feature similar to original website.
 ![Screenshot 2024-04-14 at 11 14 11 PM](https://github.com/VainaviSwaminathan/PharmEasy-clone/assets/155678331/832074df-ec56-47d9-a2a9-222915e6532e)
 
 ![Screenshot 2024-04-14 at 11 14 31 PM](https://github.com/VainaviSwaminathan/PharmEasy-clone/assets/155678331/16b11f19-7267-4e3c-b894-bf268c491d85)
+
+
+# Search feature
+This feature allows users to search for a product based on its category.
+
+![Screenshot 2024-04-14 at 11 18 55 PM](https://github.com/VainaviSwaminathan/PharmEasy-clone/assets/155678331/02d903fe-971f-4b6d-8124-34e336d64dee)
+
